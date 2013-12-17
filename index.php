@@ -7,7 +7,7 @@ if (!$link) {
 }
 echo 'Connected successfully <br />';
 
-$db_selected = mysql_select_db('orders', $link);
+$db_selected = mysql_select_db('mydatabase', $link);
 if (!$db_selected) {
     header("HTTP/1.1 500 Internal Server Error");
 }
